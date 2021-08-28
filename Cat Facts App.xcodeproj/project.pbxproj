@@ -14,6 +14,7 @@
 		AF2B9DA626D9E6DD004683E1 /* CatFactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B9DA526D9E6DD004683E1 /* CatFactView.swift */; };
 		AF2B9DA826D9E6F0004683E1 /* CatImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B9DA726D9E6F0004683E1 /* CatImageView.swift */; };
 		AF2B9DAA26D9E8F7004683E1 /* CatFactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B9DA926D9E8F7004683E1 /* CatFactManager.swift */; };
+		AF2B9DAC26D9EBA7004683E1 /* CatFact.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF2B9DAB26D9EBA7004683E1 /* CatFact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AF2B9DA526D9E6DD004683E1 /* CatFactView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactView.swift; sourceTree = "<group>"; };
 		AF2B9DA726D9E6F0004683E1 /* CatImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatImageView.swift; sourceTree = "<group>"; };
 		AF2B9DA926D9E8F7004683E1 /* CatFactManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFactManager.swift; sourceTree = "<group>"; };
+		AF2B9DAB26D9EBA7004683E1 /* CatFact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatFact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				AF2B9D9826D9E635004683E1 /* ContentView.swift */,
 				AF2B9DA526D9E6DD004683E1 /* CatFactView.swift */,
 				AF2B9DA926D9E8F7004683E1 /* CatFactManager.swift */,
+				AF2B9DAB26D9EBA7004683E1 /* CatFact.swift */,
 				AF2B9DA726D9E6F0004683E1 /* CatImageView.swift */,
 				AF2B9D9626D9E635004683E1 /* Cat_Facts_AppApp.swift */,
 				AF2B9D9A26D9E637004683E1 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 			files = (
 				AF2B9D9926D9E635004683E1 /* ContentView.swift in Sources */,
 				AF2B9DA626D9E6DD004683E1 /* CatFactView.swift in Sources */,
+				AF2B9DAC26D9EBA7004683E1 /* CatFact.swift in Sources */,
 				AF2B9DAA26D9E8F7004683E1 /* CatFactManager.swift in Sources */,
 				AF2B9D9726D9E635004683E1 /* Cat_Facts_AppApp.swift in Sources */,
 				AF2B9DA826D9E6F0004683E1 /* CatImageView.swift in Sources */,

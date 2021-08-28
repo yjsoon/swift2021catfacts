@@ -12,10 +12,15 @@ struct CatFactView: View {
     @ObservedObject var catFactManager = CatFactManager()
     
     var body: some View {
-        Text("Cat Facts")
-            .onAppear {
-                catFactManager.getCatFact()
+        VStack {
+            if let catFact = catFactManager.catFact {
+                Text(catFact.fact)
+                    .padding()
             }
+        }
+        .onAppear {
+            catFactManager.getCatFact()
+        }
     }
 }
 
